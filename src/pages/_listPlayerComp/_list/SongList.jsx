@@ -5,10 +5,13 @@ import { SongListItem } from "./_item/SongListItem";
 import styles from "./SongList.module.css";
 import { HeaderTitle, SearchBar } from "../../../ui-components";
 import { Player } from "./_player/Player";
+import { useTranslation } from 'react-i18next'
 
 export const SongList = React.memo(({ playlistId }) => {
   const { data, loading, onClick, queryBlock, queryParameters, songDetail } =
     useSongList(playlistId);
+
+  const { t } = useTranslation();
 
   const listItems = React.useMemo(() => {
     return data?.getSongs?.map((d) => {
@@ -20,7 +23,7 @@ export const SongList = React.memo(({ playlistId }) => {
     <>
       <div className={styles.outerDiv}>
         <div className={styles.headerTitleDiv}>
-          <HeaderTitle>For You</HeaderTitle>
+          <HeaderTitle>{t("foryou")}</HeaderTitle>
         </div>
         <div className={styles.searchBarDiv}>
           <SearchBar
