@@ -23,6 +23,8 @@ Then click here to navigate to the [site](http://localhost:3000/)
 
 - <b>react-icons</b> - Use Icons SVG.
 
+- <b>i18n</b> - To support multiple language translation with dynamic JSON storage.
+
 ![Output](./assets/output.png)
 
 ## Some of the pending tasks
