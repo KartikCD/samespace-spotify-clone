@@ -1,0 +1,29 @@
+@import "./font.css";
+
+@import "./variable.css";
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-size: 1.6rem;
+	font-family: var(--font-family);
+}
+
+html,
+body,
+#root {
+	height: 100%;
+	min-height: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	min-width: 100%;
+	overflow: hidden;
+}

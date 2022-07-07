@@ -1,0 +1,41 @@
+.inputRoot {
+  position: relative;
+  width: 100%; 
+}
+
+.inputRoot input {
+  padding: 0.8rem 1.6rem;
+  width: 100%;
+  font-family: var(--font-family-regular);
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.08);;
+  color: var(--color-base-white);
+  opacity: 0.6;
+  border-radius: 0.8rem;
+  -webkit-border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  -ms-border-radius: 0.8rem;
+  -o-border-radius: 0.8rem;
+}
+
+.inputRoot input::placeholder {
+  color: var(--color-sonic-silver);
+  font-weight: lighter;
+  font-style: normal;  
+}
+
+.inputRoot input:focus {
+  outline: none;
+}
+
+.inputIcon {
+  position: absolute;
+  top: 0.8rem;
+  right: 1.2rem;
+  height: 3.2rem;
+  width: 3.2rem;
+  color: var(--color-base-white);
+  opacity: 0.4;
+}

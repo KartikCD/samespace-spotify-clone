@@ -1,0 +1,23 @@
+.buttonContainer {
+    font-family: var(--font-family-regular);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    color: var(--color-base-white);
+    opacity: 0.4;
+    margin-top: 2.4rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+.buttonContainer:hover {
+    color: var(--color-base-white);
+    opacity: 1;
+}
+
+.activeElement {
+    color: var(--color-base-white) !important;
+    opacity: 1 !important;
+}

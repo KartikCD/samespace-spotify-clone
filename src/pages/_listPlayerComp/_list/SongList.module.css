@@ -1,0 +1,40 @@
+.headerTitleDiv {
+    margin: 0 2rem;
+}
+
+.searchBarDiv {
+    margin: 2.4rem 2rem;
+}
+
+.listDiv {
+    margin-top: 2.4rem;
+}
+
+.outerDiv {
+    padding-top: 4rem;
+    flex: 30%;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding-bottom: 2.4rem;
+}
+
+.outerDiv::-webkit-scrollbar {
+    display: none;
+}
+
+.playerOuterDiv {
+    padding-top: 9.3rem;
+    padding-left: 17.7rem;
+    padding-right: 15.7rem;
+    padding-bottom: 2.4rem;
+    flex: 50%;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.playerOuterDiv::-webkit-scrollbar {
+    display: none;
+}
+

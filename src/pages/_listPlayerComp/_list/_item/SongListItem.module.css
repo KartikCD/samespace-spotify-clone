@@ -1,0 +1,88 @@
+.buttonOuterStyle {
+  padding: 2rem;
+  border-radius: 0.8rem;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  height: 8.8rem;
+  -webkit-border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  -ms-border-radius: 0.8rem;
+  -o-border-radius: 0.8rem;
+  border: none;
+}
+
+.buttonOuterStyle:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.activeStyle {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.imageStyle {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  align-self: flex-start;
+}
+
+.titleTextDivStyle {
+  margin-left: 1.6rem;
+  align-items: flex-start;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.titleText {
+  font-family: var(--font-family-regular);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: var(--color-base-white);
+  display: flex;
+  align-items: baseline;
+  text-align: left;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.artistText {
+  font-family: var(--font-family-regular);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: var(--color-base-white);
+  opacity: 0.6;
+  display: flex;
+  align-items: baseline;
+  text-align: left;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.durationText {
+  margin-left: auto;
+  margin-right: 0;
+  font-family: var(--font-family-regular);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: var(--color-base-white);
+  opacity: 0.6;
+
+  flex: none;
+    order: 1;
+    flex-grow: 0; 
+}

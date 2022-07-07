@@ -1,0 +1,49 @@
+.sideButtons {
+    background-color: rgba(255, 255, 255, 0.1);;
+}
+
+.controlsInnerDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sideIcons {
+    color: var(--color-base-white);
+    width: 2.6rem;
+    height: 2.6rem;
+}
+
+.forwardBackwardIcon {
+    width: 2.8rem;
+    height: 1.8rem;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    color: var(--color-base-white);
+    cursor: pointer;
+}
+
+.centerDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightIcon {
+    color: var(--color-base-white);
+    width: 2rem;
+    height: 2rem;
+}
+
+.playIcon {
+    width: 1.8rem;
+    height: 1.8rem;
+    padding-left: 0.2rem;
+    padding-top: 0.2rem;
+}
+
+.centreButtonDiv {
+    margin-left: 3.68rem;
+    margin-right: 3.68rem;
+}

@@ -1,0 +1,40 @@
+.sidebarContainer {
+    display: flex;
+    flex: 20%;
+    flex-direction: column;
+    position: relative;
+}
+
+.logoStyle {
+    margin-top: 3.247rem;
+    margin-left: 3.294rem;
+    width: 13.153rem;
+    height: 3.941rem;
+    pointer-events: none;
+}
+
+.logoContainer {
+    cursor: pointer;
+}
+
+.listContainer {
+    margin-top: 2.812rem;
+    display: flex;
+    margin-left: 3.2rem;
+    flex-direction: column;
+}
+
+.profileIconContainer {
+    justify-self: flex-end;
+    margin-left: 3.2rem;
+    margin-bottom: 3.2rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.profileIconImage {
+    width: 4.8rem;
+    height: 4.8rem;
+    cursor: pointer;
+}

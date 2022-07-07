@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Font-Regular";
+  src: url("./assets/fonts/BasierSquare-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Font-Bold";
+  src: url("./assets/fonts/BasierSquare-Bold.ttf");
+}

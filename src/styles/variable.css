@@ -1,0 +1,18 @@
+:root {
+  /* ------------------------------ Colors ------------------------------ */
+  --color-base-white: #ffffff;
+  --color-base-black: #000000;
+  --color-dark-lava: #2F3843;
+  --color-philippine-gray: #928E89;
+  --color-wenge: #292218;
+  --color-raisin-black: #2A2319;
+  --color-sonic-silver: #b2a99d;
+
+  /* ------------------------------ Colors ------------------------------ */
+  --font-family-regular: Font-Regular;
+  --font-family-bold: Font-Bold;
+
+  --font-weight-base-regular: 400;
+  --font-weight-base-medium: 500;
+  --font-weight-base-bold: 700;
+}

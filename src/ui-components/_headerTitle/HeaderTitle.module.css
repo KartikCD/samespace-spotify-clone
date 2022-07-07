@@ -1,0 +1,10 @@
+.headerTitle {
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  text-transform: none;
+  font-style: normal;
+  font-weight: 700;
+  font-style: normal;
+  font-family: var(--font-family-bold); 
+  color: var(--color-base-white);
+}
